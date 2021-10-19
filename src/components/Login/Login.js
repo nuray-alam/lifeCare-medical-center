@@ -140,7 +140,7 @@ const Login = () => {
 
                 <button type="submit" className="btn btn-primary mt-3">{isLogin ? "Login" : "Submit"}</button>
             </form>
-            <button onClick={handleGoogleLogin} className="btn btn-primary my-5">Sign in with Google</button>
+            <button onClick={handleGoogleLogin} className="btn btn-primary my-5"><i className="fab fa-google me-2"></i>Sign in with Google</button>
         </div>
     );
 };
