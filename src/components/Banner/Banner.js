@@ -12,7 +12,6 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                     <h1 className="text-dark">BEST IN THE COUNTRY FOR CORPORATE HEALTH CHECKUP</h1>
-                    {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -24,7 +23,6 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h1 className="text-dark">OVER 100 MULTI-DISCIPLINARY SPECIALISTS</h1>
-                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -36,7 +34,6 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h1 className="text-dark">STATE OF THE ART TECHNOLOGY AND EXPERTISE</h1>
-                    {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

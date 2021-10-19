@@ -58,6 +58,7 @@ const Login = () => {
             .catch(err => setError(err.message))
             .finally(() => setIsLoading(false))
     }
+    // handle form submit button
     const handleSubmit = (event) => {
         event.preventDefault();
         if (!isLogin) {
@@ -140,8 +141,6 @@ const Login = () => {
                 <button type="submit" className="btn btn-primary mt-3">{isLogin ? "Login" : "Submit"}</button>
             </form>
             <button onClick={handleGoogleLogin} className="btn btn-primary my-5">Sign in with Google</button>
-
-
         </div>
     );
 };

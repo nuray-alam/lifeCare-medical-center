@@ -12,7 +12,6 @@ const Consultant = (props) => {
                     <h4 className="text-dark mt-3">{name}</h4>
                     <h5 className="text-primary">{expertise}</h5>
                     <p>{description}</p>
-                    {/* <button onClick={handleDetailButton} className="btn btn-outline-primary">Detail</button> */}
                 </div>
             </Col>
         </div>

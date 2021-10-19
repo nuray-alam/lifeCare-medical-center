@@ -9,9 +9,10 @@ const Appointment = () => {
     }
     return (
         <div className="appointment-section my-5">
-            < form className="w-75 mx-auto" onSubmit={submitButtonHandler}>
+            < form className="w-50 mx-auto border p-3 border-primary rounded" onSubmit={submitButtonHandler}>
+                <h3 className="text-center text-primary border-bottom pb-2">Make your Appointment</h3>
                 <fieldset className="w-50 mx-auto">
-                    <legend className="fw-bold text-primary">Your Details</legend>
+                    <legend className="">Your Details</legend>
                     <label htmlFor="name">Name:</label>
                     <input type="text" id="name" name="user_name" required placeholder="required" />
                     <label htmlFor="mail">Email: </label>
