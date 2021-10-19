@@ -1,12 +1,22 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { Spinner } from 'react-bootstrap';
+import { useHistory, useParams } from 'react-router';
+import useServicesData from '../../hooks/useServicesData';
 
 const Detail = () => {
     const { serviceId } = useParams();
+    const [services] = useServicesData();
+    const history = useHistory()
+    const handleBackButton = () => {
+        history.push('/home')
+    }
+    let serviceToShow = services.find(service => service.id === serviceId)
     return (
-        <div>
-            <h2>This is detail component</h2>
-            <h4>ID: {serviceId}</h4>
+        <div className="detail w-50 my-5 mx-auto text-center">
+            <img className="img-fluid" src={serviceToShow?.img} alt="" />
+            <h2>{serviceToShow?.name}</h2>
+            <p>{serviceToShow?.description}</p>
+            <button className="btn btn-outline-primary" onClick={handleBackButton}>Back</button>
         </div>
     );
 };

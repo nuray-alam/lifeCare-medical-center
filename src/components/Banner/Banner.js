@@ -11,32 +11,32 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h1 className="text-dark">BEST IN THE COUNTRY FOR CORPORATE HEALTH CHECKUP</h1>
+                    {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://www.mozocare.com/insights/wp-content/uploads/2020/09/best-hospital.jpg"
+                    src="https://i.ibb.co/P4sX8xF/best-hospital.jpg"
                     alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h1 className="text-dark">OVER 100 MULTI-DISCIPLINARY SPECIALISTS</h1>
+                    {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://previews.123rf.com/images/pitinan/pitinan1908/pitinan190800170/128880167-medical-healthcare-concept-doctor-in-hospital-with-digital-medical-icons-graphic-banner-showing-symb.jpg"
+                    src="https://i.ibb.co/s197Q27/Medical-Healthcare-Concept-Doctor-in-hospital-with-digital-medical-icons-graphic-banner-showing-symb.jpg"
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h1 className="text-dark">STATE OF THE ART TECHNOLOGY AND EXPERTISE</h1>
+                    {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

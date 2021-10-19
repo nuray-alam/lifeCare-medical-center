@@ -1,13 +1,14 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import './App.css';
 import About from "./components/About/About";
 import Appointment from "./components/Appointment/Appointment";
+import AppointmentConfirmation from "./components/AppointmentConfirmation/AppointmentConfirmation";
+import Consultancy from "./components/Consultancy/Consultancy";
 import Detail from "./components/Detail/Detail";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -43,6 +44,12 @@ function App() {
             <PrivateRoute path="/appointment">
               <Appointment></Appointment>
             </PrivateRoute>
+            <PrivateRoute path="/appointmentConfirmation">
+              <AppointmentConfirmation></AppointmentConfirmation>
+            </PrivateRoute>
+            <PrivateRoute path="/consultancy">
+              <Consultancy></Consultancy>
+              </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

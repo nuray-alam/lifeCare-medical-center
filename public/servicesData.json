@@ -1,37 +1,37 @@
 [
     {
       "id": "1",
-      "img":"https://thumbs.dreamstime.com/b/head-brain-icon-mind-psychology-medical-neurology-symbol-simple-style-190524538.jpg",
+      "img":"https://daleenahealthcare.com/wp-content/uploads/2021/04/Neurology-Service-1920x1280-1.jpg",
       "name": "Neurology",
       "description": "LifeCare center is a centre of excellence, providing high quality personalized care through an eminent faculty of Neuro-medicine, Neuro-surgery, Neuro-anesthesia etc."
     },
     {
         "id": "2",
-        "img":"https://previews.123rf.com/images/backwoodsicon/backwoodsicon2008/backwoodsicon200800005/156821028-anatomy-cardiovascular-system-black-line-icon-human-internal-organ-cardiology-outline-pictogram-for-.jpg",
+        "img":"https://preview.colorlib.com/theme/docmed/img/department/x6.png.pagespeed.ic.H_Jz9l-DBS.webp",
         "name": "Cardiology",
         "description": "LifeCare, From life saving cardiac surgeries to high –tech interventional cardiology –our team of specialist cover the full spectrum of heart diseases with skill and precision."
       },
       {
         "id": "3",
-        "img":"https://st2.depositphotos.com/3369547/11305/v/950/depositphotos_113058532-stock-illustration-emergency-ambulance-service-vector.jpg",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMOStiZdVvs__w9s_irQXeo4MJ0RoWdFFQNqLRKpTc4P3_wv2xmUTHj0pgEdGfotdW2eY&usqp=CAU",
         "name": "Emergency Services",
         "description": "LifeCare Emergency Room (ER) and Ambulance provides non-stop life-saving care when required, 24 hours a day, seven days a week. "
       },
       {
         "id": "4",
-        "img":"data:image/png;base64,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",
+        "img":"https://preview.colorlib.com/theme/docmed/img/department/x3.png.pagespeed.ic.zpAN733a8c.webp",
         "name": "Dental",
         "description": "The LifeCare Dental Centre has been set up with the aim to provide an international standard dental treatment for our community."
       },
       {
         "id": "5",
-        "img":"https://icon-library.com/images/consultation-icon/consultation-icon-26.jpg",
+        "img":"https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2020/04/doctors-office-safe.jpg",
         "name": "Consultancy",
         "description": "LifeCare center has a large number of consultant from differant expertise. We have cardiologist, neurologist, dentist etc."
       },
       {
         "id": "6",
-        "img":"https://static.thenounproject.com/png/2451156-200.png",
+        "img":"https://cdn-prod.medicalnewstoday.com/content/images/articles/326/326749/a-rheumatologist-checking-a-patients-hands-for-signs-for-inflammation.jpg",
         "name": "Rheumatology",
         "description": "Specialized in the treatment of  pain and disorders involving Bones,Muscles, Joints and Spine etc."
       }

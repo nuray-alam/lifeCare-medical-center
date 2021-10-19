@@ -20,7 +20,7 @@ const Footer = () => {
                         <li className="fs-5 border-bottom pb-1 border-info">Get Help</li>
                         <li className='pt-3'>FAQ</li>
                         <li>Returns</li>
-                        <li>Order Status</li>
+                        <li>Find a Doctor</li>
                         <li>Payment Options</li>
                     </ul>
                 </Col>
