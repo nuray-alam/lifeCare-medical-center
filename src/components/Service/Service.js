@@ -4,11 +4,10 @@ import { useHistory } from 'react-router';
 import './Service.css'
 const Service = (props) => {
     const { id, name, img, description } = props.service;
- 
+
     const history = useHistory();
     const handleDetailButton = () => {
         const detailUrl = "/detail/" + id;
-        console.log(detailUrl)
         history.push(detailUrl)
     }
     return (

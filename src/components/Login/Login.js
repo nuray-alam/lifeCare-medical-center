@@ -80,7 +80,8 @@ const Login = () => {
     }
 
     return (
-        <div className="w-50 mx-auto my-5">
+        <div className="w-50 mx-auto my-5 border p-4 border-primary roundedgi">
+            <h3 className="text-primary fw-bold">{isLogin ? "Login" : "Register"}</h3>
             <form onSubmit={handleSubmit}>
                 {!isLogin &&
                     <div className="pb-3">
@@ -138,8 +139,7 @@ const Login = () => {
 
                 <button type="submit" className="btn btn-primary mt-3">{isLogin ? "Login" : "Submit"}</button>
             </form>
-
-            <button onClick={handleGoogleLogin} className="my-5">Sign in with Google</button>
+            <button onClick={handleGoogleLogin} className="btn btn-primary my-5">Sign in with Google</button>
 
 
         </div>
