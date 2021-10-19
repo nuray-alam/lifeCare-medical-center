@@ -11,7 +11,6 @@ const Blog = (props) => {
                     <img src={img} className="img-fluid" alt="" />
                     <h4 className="text-dark mt-3">{title}</h4>
                     <p>{description}</p>
-                    {/* <button onClick={handleDetailButton} className="btn btn-outline-primary">Detail</button> */}
                 </div>
             </Col>
         </div>

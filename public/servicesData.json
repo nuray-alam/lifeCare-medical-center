@@ -3,37 +3,79 @@
       "id": "1",
       "img":"https://daleenahealthcare.com/wp-content/uploads/2021/04/Neurology-Service-1920x1280-1.jpg",
       "name": "Neurology",
-      "description": "LifeCare center is a centre of excellence, providing high quality personalized care through an eminent faculty of Neuro-medicine, Neuro-surgery, Neuro-anesthesia etc."
+      "description": "LifeCare center is a centre of excellence, providing high quality personalized care through an eminent faculty of Neuro-medicine, Neuro-surgery, Neuro-anesthesia etc.",
+      "moreDetail": [
+        "Adhering to high ethical and moral standards at all times",
+        "Making service quality top priority in all we do",
+        "Training staff to work within a quality care environment",
+        "Providing quality health care service in all processes",
+        "Delivering customer satisfaction through quality service"
+      ]
     },
     {
         "id": "2",
         "img":"https://preview.colorlib.com/theme/docmed/img/department/x6.png.pagespeed.ic.H_Jz9l-DBS.webp",
         "name": "Cardiology",
-        "description": "LifeCare, From life saving cardiac surgeries to high –tech interventional cardiology –our team of specialist cover the full spectrum of heart diseases with skill and precision."
+        "description": "LifeCare, From life saving cardiac surgeries to high –tech interventional cardiology –our team of specialist cover the full spectrum of heart diseases with skill and precision.",
+        "moreDetail": [
+          "Adhering to high ethical and moral standards at all times",
+          "Making service quality top priority in all we do",
+          "Training staff to work within a quality care environment",
+          "Providing quality health care service in all processes",
+          "Delivering customer satisfaction through quality service"
+        ]
       },
       {
         "id": "3",
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMOStiZdVvs__w9s_irQXeo4MJ0RoWdFFQNqLRKpTc4P3_wv2xmUTHj0pgEdGfotdW2eY&usqp=CAU",
         "name": "Emergency Services",
-        "description": "LifeCare Emergency Room (ER) and Ambulance provides non-stop life-saving care when required, 24 hours a day, seven days a week. "
+        "description": "LifeCare Emergency Room (ER) and Ambulance provides non-stop life-saving care when required, 24 hours a day, seven days a week. ",
+        "moreDetail": [
+          "Adhering to high ethical and moral standards at all times",
+          "Making service quality top priority in all we do",
+          "Training staff to work within a quality care environment",
+          "Providing quality health care service in all processes",
+          "Delivering customer satisfaction through quality service"
+        ]
       },
       {
         "id": "4",
         "img":"https://preview.colorlib.com/theme/docmed/img/department/x3.png.pagespeed.ic.zpAN733a8c.webp",
         "name": "Dental",
-        "description": "The LifeCare Dental Centre has been set up with the aim to provide an international standard dental treatment for our community."
+        "description": "The LifeCare Dental Centre has been set up with the aim to provide an international standard dental treatment for our community.",
+        "moreDetail": [
+          "Adhering to high ethical and moral standards at all times",
+          "Making service quality top priority in all we do",
+          "Training staff to work within a quality care environment",
+          "Providing quality health care service in all processes",
+          "Delivering customer satisfaction through quality service"
+        ]
       },
       {
         "id": "5",
         "img":"https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2020/04/doctors-office-safe.jpg",
         "name": "Consultancy",
-        "description": "LifeCare center has a large number of consultant from differant expertise. We have cardiologist, neurologist, dentist etc."
+        "description": "LifeCare center has a large number of consultant from differant expertise. We have cardiologist, neurologist, dentist etc.",
+        "moreDetail": [
+          "Adhering to high ethical and moral standards at all times",
+          "Making service quality top priority in all we do",
+          "Training staff to work within a quality care environment",
+          "Providing quality health care service in all processes",
+          "Delivering customer satisfaction through quality service"
+        ]
       },
       {
         "id": "6",
         "img":"https://cdn-prod.medicalnewstoday.com/content/images/articles/326/326749/a-rheumatologist-checking-a-patients-hands-for-signs-for-inflammation.jpg",
         "name": "Rheumatology",
-        "description": "Specialized in the treatment of  pain and disorders involving Bones,Muscles, Joints and Spine etc."
+        "description": "Specialized in the treatment of  pain and disorders involving Bones,Muscles, Joints and Spine etc.",
+        "moreDetail": [
+          "Adhering to high ethical and moral standards at all times",
+          "Making service quality top priority in all we do",
+          "Training staff to work within a quality care environment",
+          "Providing quality health care service in all processes",
+          "Delivering customer satisfaction through quality service"
+        ]
       }
 
   ]
