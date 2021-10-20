@@ -29,7 +29,7 @@ const Consultancy = () => {
                             <option value="Dr Ahel Natasha">Dr Ahel Natasha</option>
                             <option value="Dr Gabriela Beckett">Dr Gabriela Beckett</option>
                         </select>
-                        <label htmlFor="small-description">Tell us your about your health</label>
+                        <label htmlFor="small-description">Tell us about your health</label>
                         <textarea id="appointment_description" name="appointment_description" placeholder="example@Having a bad headache for two days" className="mb-3"></textarea>
                     </fieldset>
                 </ form>
