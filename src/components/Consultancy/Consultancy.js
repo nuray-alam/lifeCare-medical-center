@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap';
 import './Consultancy.css'
 const Consultancy = () => {
     return (
-        <Row lg={2} md={1} xs={1} className="consultancy-section my-5 px-3">
+        <Row lg={2} md={1} xs={1} className="consultancy-section my-5 px-3 mx-auto">
             <Col>
                 <img className="img-fluid" src="https://www.ghp-news.com/pages/46224018-dadc-4fe5-b21a-91d5c60e419c/e5ccf5a7-f257-44a3-bfc5-0c6dcb6e8eec/img_2_3b00685d-4682-4cbc-a522-a343b00994a9.png" alt="" />
             </Col>
