@@ -81,7 +81,7 @@ const Login = () => {
     }
 
     return (
-        <div className="w-50 mx-auto my-5 border p-4 border-primary roundedgi">
+        <div className="w-75 mx-auto my-5 border p-4 border-primary roundedgi">
             <h3 className="text-primary fw-bold">{isLogin ? "Login" : "Register"}</h3>
             <form onSubmit={handleSubmit}>
                 {!isLogin &&

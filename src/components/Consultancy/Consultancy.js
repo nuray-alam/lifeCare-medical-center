@@ -7,9 +7,9 @@ const Consultancy = () => {
             <Col>
                 <img className="img-fluid" src="https://www.ghp-news.com/pages/46224018-dadc-4fe5-b21a-91d5c60e419c/e5ccf5a7-f257-44a3-bfc5-0c6dcb6e8eec/img_2_3b00685d-4682-4cbc-a522-a343b00994a9.png" alt="" />
             </Col>
-            <Col>
+            <Col className="my-3">
                 < form className="w-75 mx-auto" >
-                    <fieldset className="w-50 mx-auto">
+                    <fieldset className="mx-auto">
                         <label htmlFor="department">Department</label>
                         <select id="department" name="department" className="mb-3" required>
                             <option value="Neurology">Neurology</option>

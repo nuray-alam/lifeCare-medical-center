@@ -14,10 +14,10 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto fs-5">
-                        <NavLink as={Link} to="/home" activeStyle={{ fontWeight: "bold", color: "#91BFFF", borderBottom: "1px solid #91BFFF" }} className="text-decoration-none header-link me-3">Home</NavLink>
-                        <NavLink as={Link} to="/consultancy" activeStyle={{ fontWeight: "bold", color: "#91BFFF", borderBottom: "1px solid #91BFFF" }} className="text-decoration-none header-link me-3">Online Consultancy</NavLink>
-                        <NavLink as={Link} to="/appointment" activeStyle={{ fontWeight: "bold", color: "#91BFFF", borderBottom: "1px solid #91BFFF" }} className="text-decoration-none header-link me-3">Appointment</NavLink>
-                        <NavLink as={Link} to="/about" activeStyle={{ fontWeight: "bold", color: "#91BFFF", borderBottom: "1px solid #91BFFF" }} className="text-decoration-none header-link me-3">About</NavLink>
+                        <NavLink as={Link} to="/home" activeStyle={{ fontWeight: "bold", color: "#91BFFF" }} className="text-decoration-none header-link me-3">Home</NavLink>
+                        <NavLink as={Link} to="/consultancy" activeStyle={{ fontWeight: "bold", color: "#91BFFF"}} className="text-decoration-none header-link me-3">Online Consultancy</NavLink>
+                        <NavLink as={Link} to="/appointment" activeStyle={{ fontWeight: "bold", color: "#91BFFF" }} className="text-decoration-none header-link me-3">Appointment</NavLink>
+                        <NavLink as={Link} to="/about" activeStyle={{ fontWeight: "bold", color: "#91BFFF" }} className="text-decoration-none header-link me-3">About</NavLink>
 
                     </Nav>
                     {/* conditional rendering user name */}

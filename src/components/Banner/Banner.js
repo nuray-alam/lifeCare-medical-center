@@ -11,7 +11,7 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h1 className="text-dark">BEST IN THE COUNTRY FOR CORPORATE HEALTH CHECKUP</h1>
+                    <h1 className="text-dark">BEST FOR CORPORATE HEALTH CHECKUP</h1>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

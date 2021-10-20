@@ -9,20 +9,20 @@ const Appointment = () => {
     }
     return (
         <div className="appointment-section my-5">
-            < form className="w-50 mx-auto border p-3 border-primary rounded" onSubmit={submitButtonHandler}>
+            < form className="w-75 mx-auto border p-3 border-primary rounded" onSubmit={submitButtonHandler}>
                 <h3 className="text-center text-primary border-bottom pb-2">Make your Appointment</h3>
-                <fieldset className="w-50 mx-auto">
+                <fieldset className="w-75 mx-auto">
                     <legend className="">Your Details</legend>
                     <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="user_name" required placeholder="required" />
+                    <input type="text" id="name" name="user_name" required placeholder="required*" />
                     <label htmlFor="mail">Email: </label>
-                    <input type="email" id="mail" name="user_email"></input>
+                    <input type="email" id="mail" name="user_email" placeholder="example@gmail.com"></input>
 
                     <label htmlFor="tel">Contact Number:</label>
-                    <input type="tel" id="tel" name="user_number" required placeholder="required" />
+                    <input type="tel" id="tel" name="user_number" required placeholder="required*" />
 
                 </fieldset>
-                <fieldset className="w-50 mx-auto">
+                <fieldset className="w-75 mx-auto">
                     <legend>Appointment Details</legend>
                     <label htmlFor="department">Department</label>
                     <select id="department" name="department" required>
@@ -53,7 +53,7 @@ const Appointment = () => {
                     <br />
                 </fieldset>
                 <div className="mx-auto text-center">
-                    <button type="submit" className="btn btn-primary w-25">submit</button>
+                    <button type="submit" className="btn btn-primary">submit</button>
                 </div>
 
             </ form>
